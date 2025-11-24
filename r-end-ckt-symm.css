@@ -19,4 +19,8 @@
 	flex-direction: column;
 }
 
+.tabela-carrinho .form-horizontal {
+    justify-content: center;
+}
+
 }
