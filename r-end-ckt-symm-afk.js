@@ -1,5 +1,3 @@
-<script>
-// Preenchimento automático de CEP e endereço
 (function($) {
   'use strict';
 
@@ -105,29 +103,3 @@
   });
 
 })(jQuery);
-</script>
-
-<style>
-#formularioCheckout > .row-fluid > .span4:nth-child(2),
-.carrinho-checkout .tr-checkout-frete,
-.pagina-carrinho #formCalcularFrete {
-    display: none!important;
-}
-
-#formularioCheckout > .row-fluid > .span4 {
-    flex: 1;
-}
-
-#formularioCheckout > .row-fluid {
-    display: flex!important;
-}
-
-
-@media screen and (max-width: 768px) {
-	
-#formularioCheckout>.row-fluid {
-	flex-direction: column;
-}
-
-}
-</style>
